@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 
-//Create Message Display Template
+//Create Message Display Component
 function MessageHolder({ message, index, deleteMessage, readMessage }) {
   return (
     <div
@@ -20,7 +20,7 @@ function MessageHolder({ message, index, deleteMessage, readMessage }) {
   );
 }
 
-//Create out form component
+//Create Input Form Component
 function Form({ addMessage }) {
   const [message, setMessage] = useState("");
   const [email, setEmail] = useState("");
